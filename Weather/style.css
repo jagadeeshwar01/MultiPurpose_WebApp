@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2em;
+    
+}
+
+
+body{
+    background-color: #282828 !important;
+}
+
+.container{
+    position:relative;
+    display:inline-block;
+    top:200px;
+    width: 350px;   
+    height:400px; 
+    background-color: #FFD700;    
+    box-shadow: 0px 0px 2px 2px rgba(255,215,0, 0.5),
+    0px 0px 5px 5px rgba(255,215,0, 0.3),
+    0px 0px 10px 10px rgba(255,215,0, 0.2);    
+    display: block;
+    margin: 0 auto;
+    border:none;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    position:relative;
+    display:inline-block;
+    left:30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.notification{
+    background-color: #fff;
+    display: none;
+    width:270px;
+    position:relative;
+    left:40px;
+    top:10px;
+    height:55px;
+    border-radius:5px;
+    box-shadow: rgba(245, 245, 245, 0.5) 0px 0px 4px 4px,
+      rgba(255, 250, 250, 0.3) 0px 0px 10px 10px,
+      rgba(256, 256, 256, 0.1) 0px 0px 20px 20px;
+    z-index:2;
+}
+
+.notification p{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.weather-container{
+    position:relative;
+    left:30px;
+    width: 300px;
+    height: 260px;
+    background-color: #FFD700;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    position:relative;
+    display:inline-block;
+    bottom:20px;
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.temperature-value span{
+    color: #000;
+    font-size: 0.5em;
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2em;
+    
+}
+
+body {
+    background-color: #282828 !important;
+}
+
+.temp_calculator {
+    top:70px;
+    position:relative;    
+    width: 540px;
+    margin: 50px auto;
+    background-color: #FF4500;
+    border-radius:15px;
+    box-shadow: 0px 0px 2px 2px rgba(255,69,0, 0.5),
+    0px 0px 5px 5px rgba(255,69,0, 0.3),
+    0px 0px 10px 10px rgba(255,69,0, 0.2);
+    height:500px;
+}
+form {
+    padding: 15px;
+}
+h4.title {
+
+    color: #000;
+    text-align: center;
+    padding: 15px;
+}
+.calculator_input {
+    float: left;
+}
+label {
+    font-size: 20px;
+}
+input {
+    position:relative;
+    bottom:3px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 27px -2px,
+    rgba(0, 0, 0, 0.3) 0px 0px 16px -3px;
+    outline:none;
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+.result_area input {
+    width: 82%;
+}
+.calculator_value label {
+    width: 36%;
+    float: left;
+}
+.calculator_value input {
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    position:relative;
+    top:25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button#convert {
+    float: right;
+}
+button.cal-btn {
+    top:7px;
+    width: 210px;
+    margin: 3% 20px 0 20px;
+    padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 27px -2px,
+      rgba(0, 0, 0, 0.3) 0px 0px 16px -3px;
+    
+    background-color:#FF4500;
+    border-radius: 10px;
+    color: #000;
+    font-size: 18px;
+    border:none;
+    transition: 0.3s;
+    position:relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button.cal-btn:hover{
+    background-color: white !important;
+    color: #282828;
+    box-shadow: rgba(245, 245, 245, 0.5) 0px 0px 4px 4px,
+      rgba(255, 250, 250, 0.3) 0px 0px 10px 10px,
+      rgba(256, 256, 256, 0.1) 0px 0px 20px 20px;
+    transform:scale(1.05);
+}
+select {
+    padding: 5px;
+}
